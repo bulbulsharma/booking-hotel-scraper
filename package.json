@@ -1,0 +1,14 @@
+{
+  "name": "node-puppeteer-scraper",
+  "version": "1.0.0",
+  "description": "A simple web scraper using Puppeteer.",
+  "main": "src/scraper.js",
+  "scripts": {
+    "start": "node src/scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
