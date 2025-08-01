@@ -1,47 +1,34 @@
-# Node Puppeteer Scraper
+# 🏨 Booking.com 5-Star Hotel Price Scraper
 
-This project is a web scraper built using Node.js and Puppeteer. It allows you to navigate to a specified URL and extract data from the page.
+This project is a web scraper built with **Puppeteer (Node.js)** that returns the **lowest listing price** for a **5-night stay** for **2 adults and 1 infant (age < 2 years)** at the **highest-rated 5-star hotel** in any specified city, using **Booking.com**.
 
-## Table of Contents
+---
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## ✨ Features
 
-## Installation
+- Searches for real-time hotel listings on Booking.com
+- Applies filters: 5-star rating, 2 adults + 1 infant
+- Calculates price for a 5-night stay (starting 7 days from today)
+- Extracts:
+  - Hotel name
+  - Rating
+  - Total price
+  - Booking.com link
+- Automatically identifies and selects the 5-star filter from the UI
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/node-puppeteer-scraper.git
-   ```
+---
 
-2. Navigate to the project directory:
-   ```
-   cd node-puppeteer-scraper
-   ```
+## 📦 Tech Stack
 
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+- **Node.js**
+- **Puppeteer** (Headless Chrome automation)
 
-## Usage
+---
 
-To run the scraper, execute the following command:
+## 🚀 How to Run
 
-```
-npm start
-```
+### 1. Clone this repo
 
-This will automatically search Booking.com for the best-rated 5-star hotel in Mumbai for 2 adults and 1 infant (under 2 years) for a 5-night stay starting 7 days from today.
-
-Replace `<URL>` with the website you want to scrape.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
+```bash
+git clone https://github.com/bulbulsharma/booking-hotel-scraper
+cd booking-hotel-scraper
